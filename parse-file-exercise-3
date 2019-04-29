@@ -1,0 +1,11 @@
+import pandas as pd
+
+df = pd.read_csv('iris.csv', names = ['Sepal length', 'pepal width', 'petal length', 'petal width', 'Type'])
+
+print(df)
+
+#print(df[1:2])
+
+#print("Sepal length \t pepal width \t petal length \t petal width \t Type")
+#for index, row in df.iterrows():
+  #print("{} \t {} \t {} \t {} \t {} \n".format(row[0],row[1],row[2],row[3],row[4]))
